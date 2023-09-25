@@ -62,7 +62,6 @@ const UserProfile = () => {
         />
       </div>
     </div>
-
   );
 };
 

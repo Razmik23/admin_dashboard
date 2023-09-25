@@ -51,7 +51,7 @@ const App = () => {
             {themeSettings && <ThemeSettings />}
             <Routes>
               {/* Dashboard */}
-              <Route path = "/" element={<Ecommerce />}/>
+                <Route path = "/" element={<Ecommerce />}/>
                 <Route path = "/ecommerce" element={<Ecommerce />}/>
 
               {/* Pages */}
@@ -73,7 +73,6 @@ const App = () => {
                 <Route path = "/color-mapping" element={<ColorMapping />}/>
                 <Route path = "/pyramid" element={<Pyramid />}/>
                 <Route path = "/stacked" element={<Stacked />}/>
-
             </Routes>
           </div> 
           </div>
@@ -82,5 +81,4 @@ const App = () => {
     </div>
   )
 }
-
 export default App
